@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw-11-color-switch",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11-color-switch/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElenVlass/goit-js-hw-11-color-switch.git"
+  },
+  "keywords": [],
+  "author": "Elena_Vlasenko <olefelena@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElenVlass/goit-js-hw-11-color-switch/issues"
+  },
+  "homepage": "https://github.com/ElenVlass/goit-js-hw-11-color-switch",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "refs": "^0.9.7"
+  }
+}
